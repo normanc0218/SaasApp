@@ -1,7 +1,7 @@
-const CompanionsLibrary = ()=>{
+const CompanionsSession = ()=>{
     return (
-        <div>Companion Library</div>
+        <div>Companion Session</div>
     )
 }
 
-export default CompanionsLibrary
+export default CompanionsSession
