@@ -1,6 +1,6 @@
 {
   "name": "Next.js Dev",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "image": "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
   "postCreateCommand": "npm ci",
   "forwardPorts": [3000],
   "customizations": {
