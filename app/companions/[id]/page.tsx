@@ -17,7 +17,7 @@ const CompanionSession = async ({ params }: CompanionSessionPageProps) => {
     console.log('🔍 USER:', user);  // 贴给我看
     console.log('🔍 user?.id:', user?.id);
 
-    const { name, subject, title, topic, duration } = companion;
+    const {name, subject, title, topic, duration } = companion;
 
     if(!user) redirect('/sign-in');
     if(!name) redirect('/companions')
